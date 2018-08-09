@@ -14,7 +14,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        
+        bombAudio: {
+            default: null,
+            url: cc.AudioClip
+        },
     },
 
     noteBox: function(){
@@ -34,6 +37,7 @@ cc.Class({
         var tscore = cc.find('Canvas/score').getComponent(tmpScore);
 
         if (cc.rectIntersectsRect(hero.node.getBoundingBoxToWorld(), this.noteBox())) {
+            cc.audioEngine.play(this.bombAudio, false);
             tscore.addScore(-20);
             this.node.removeFromParent();
         }

@@ -33,6 +33,10 @@ cc.Class({
         radish: {
             default: null,
             type: cc.Prefab
+        },
+        gameOverAudio: {
+            default: null,
+            url: cc.AudioClip
         }
     },
 
@@ -99,6 +103,7 @@ cc.Class({
         this.resignEvent();
         this.player.stopAllActions();
         cc.director.loadScene('GameOver');
+        cc.audioEngine.play(this.gameOverAudio, false);
     },
 
     resignEvent: function(){
@@ -122,7 +127,6 @@ cc.Class({
     },
 
     start () {
-
     },
 
     // update (dt) {},

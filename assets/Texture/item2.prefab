@@ -96,7 +96,10 @@
     "node": {
       "__id__": 1
     },
-    "_enabled": true
+    "_enabled": true,
+    "hitAudio": {
+      "__uuid__": "f2b81cbb-2741-4ee3-ac94-c0ad6df7511a"
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -104,9 +107,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "0c4216e4-351d-4030-ab2a-3f77e296a7e5"
+      "__id__": 0
     },
-    "fileId": "dfb3d9pBndNiK4clGdQOU7/",
+    "fileId": "49iUVO25hLcJpXFc9TrQpR",
     "sync": false
   }
 ]

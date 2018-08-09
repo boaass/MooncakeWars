@@ -96,7 +96,8 @@
     "node": {
       "__id__": 1
     },
-    "_enabled": true
+    "_enabled": true,
+    "bombAudio": "/Users/zhaichunlin/Documents/WXGameDev/GrabMoonCake/assets/Texture/bomb_music.mp3"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -104,9 +105,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ad042382-019e-4347-9cdf-2a147c5f39c9"
+      "__id__": 0
     },
-    "fileId": "ef48eJt7x9Nj52QmupaZ0Az",
+    "fileId": "24QixEVAlJ5JkubplCEUj3",
     "sync": false
   }
 ]
